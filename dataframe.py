@@ -1,3 +1,4 @@
+'''
 item_df
 row = item
 coverage = whole items
@@ -40,3 +41,4 @@ row = cont
 coverage = item_conts from item_cont_df and book_conts from book_cont_df
 col = cont_code, item_code, cont_type, cont_num, src_pdf_path, src_pdf_coords,
 dst_pdf_path, dst_pdf_page, dst_pdf_para, dst_pdf_coords (all from book_info)
+'''
