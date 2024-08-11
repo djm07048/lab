@@ -388,6 +388,8 @@ class ItemContDf(TestDf):
         return item_cont_df
 
 
+
+#여기부터 수정해야 할 필요가 있다.
 class TestParaManager(ItemContDf):
     def __init__(self, test_code):
         super().__init__(test_code)
