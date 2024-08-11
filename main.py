@@ -386,8 +386,21 @@ class ItemContDf(TestDf):
         return item_cont_df
 
 
-
 #여기부터 수정해야 할 필요가 있다.
+
+class Book:
+    def __init__(self, test_code, book_type, book_num):
+        # book_type: pbm, sol, ans, ...
+        # book_num: 01, 02, 03, ...
+        self.test_code = test_code
+        self.book_type = book_type
+        self.book_num = book_num
+
+    def define_book_code(self, test_code, book_type, book_num):
+        book_code = f'{self.test_code}_{self.book_type}_{self.book_num:02d}'
+        return book_code
+
+
 class TestParaManager(ItemContDf):
     def __init__(self, test_code):
         super().__init__(test_code)
