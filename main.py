@@ -7,9 +7,7 @@ import numpy as np
 from PIL import Image
 from pathlib import Path
 import pandas as pd
-'''
-ddd
-'''
+
 class Ratio:
     @staticmethod
     def mm_to_png_px(mm, dpi_png):
