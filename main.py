@@ -57,6 +57,7 @@ class DB:
         db_dir = Path(r'C:\Users\LEE YONGJOO\PycharmProjects\lab\DB')
         item_db_dir = db_dir / 'itemDB'
         test_db_dir = db_dir / 'testDB'
+        book_db_dir = db_dir / 'bookDB'
         return db_dir, item_db_dir, test_db_dir
 
 
@@ -372,11 +373,13 @@ class ItemContDf(TestDf):
         for _, row in test_df.iterrows():
             item_code = row['item_code']
             item_pdf_path = row['item_pdf_path']
+            item_serial_num = row['item_serial_num']
             for cont_code, coords in row['item_cont_info'].items():
                 cont_type, cont_sub_type, cont_num = cont_code.split('_')[1:]
                 item_cont_data.append({
                     'cont_code': cont_code,
                     'item_code': item_code,
+                    'item_serial_num': item_serial_num,
                     'cont_type': cont_type,
                     'cont_sub_type': cont_sub_type,
                     'cont_num': cont_num,
@@ -392,9 +395,6 @@ class ItemContDf(TestDf):
         item_cont_df = pd.DataFrame(item_cont_data)
         return item_cont_df
 
-
-#여기부터 수정해야 할 필요가 있다.
-
 class Book:
     def __init__(self, test_code, book_type, book_num):
         # book_type: pbm, sol, ans, ...
@@ -407,6 +407,54 @@ class Book:
         book_code = f'{self.test_code}_{self.book_type}_{self.book_num:02d}'
         return book_code
 
+    def open_book_df_from_csv(self):
+        book_db_dir = DB.define_item_db_dir()[3]
+        book_df_path = book_db_dir / 'book_df.csv'
+        book_df = pd.read_csv(book_df_path)
+        return book_df
+
+class BookContDf(Book):
+    def __init__(self):
+        super().__init__()
+        self.book_code = self.define_book_code(self.test_code, self.book_type, self.book_num)
+        self.book_df = self.open_book_df_from_csv()
+    def get_book_cont_df(self, book_code):
+        book_cont_df = self.book_df[self.book_df['book_code'] == book_code]
+        return book_cont_df
+class MergedContDf(Book, ItemContDf):
+    def __init__(self, test_code, book_type, book_num):
+        super().__init__(test_code, book_type, book_num)
+
+    def merge_two_cont_df(self):
+        item_cont_df = self.get_item_cont_df(self.test_code)
+        book_cont_df = self.get_book_cont_df(self.book_code)
+        merged_cont_df = pd.merge(item_cont_df, book_cont_df, on='cont_code')
+        return merged_cont_df
+
+    dict_cont_type_serial_num = {
+        'header': 0,
+        'pbm_pbm': 10,
+        'sol_ans': 20,
+        'sol_aaa': 21,
+        'sol_bbb': 22,
+        'sol_ccc': 23,
+        'sol_arw': 24,
+        'sol_clp': 25,
+        'sol_chk': 26,
+        'sol_wrn': 27,
+        'sol_etc': 28,
+        'footer': 30,
+        'blank': 40
+    }
+
+    def arrange_merged_cont_df(self, merged_cont_df):
+        # Map cont_type to cont_type_serial_num
+        merged_cont_df['cont_type_serial_num'] = merged_cont_df['cont_type'].map(dict_cont_type_serial_num)
+
+        # Sort by item_serial_num, cont_type_serial_num, and cont_num
+        merged_cont_df = merged_cont_df.sort_values(by=['item_serial_num', 'cont_type_serial_num', 'cont_num'])
+
+        return merged_cont_df
 
 class TestParaManager(ItemContDf):
     def __init__(self, test_code):
