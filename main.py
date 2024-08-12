@@ -59,6 +59,13 @@ class DB:
         test_db_dir = db_dir / 'testDB'
         return db_dir, item_db_dir, test_db_dir
 
+
+class PdfEditor:
+    def __init__(self):
+        pass
+
+
+
 class ItemDB(DB):
     def __init__(self, item_code):
         self.item_code = item_code
@@ -104,7 +111,7 @@ class ItemDB(DB):
 
 class ItemDf(DB):
     def __init__(self):
-        super().__init__(None)
+        super().__init__()
     '''
     row = item
     coverage = whole items
@@ -151,14 +158,14 @@ class ItemDf(DB):
 
 class ItemProcessor(ItemDf):
     def __init__(self, item_code):
-        super().__init__(item_code)
+        super().__init__()
 
     def upload_item_by_pdf(self, pdf_src_path):
         self.make_dir()
         self.reset_meta_dir()
 
         # Move existing PDF to legacy
-        _, _, _, _, _, _, item_legacy_dir, item_pdf_path = self.define_item_dir()
+        _, _, _, _, _, _, item_legacy_dir, item_pdf_path = ItemDB.define_item_dir()
         if item_pdf_path.exists():
             creation_date = self.get_pdf_creation_date(item_pdf_path)
             new_filename = f"{self.item_code}_{creation_date}{item_pdf_path.suffix}"
@@ -551,5 +558,5 @@ if __name__ == "__main__":
     item_code = "E1aaaHY250023"
     pdf_src_path = Path(r"E1aaaHY250023.pdf")
     processor = ItemProcessor(item_code)
-    processor.upload_item(pdf_src_path)
+    processor.upload_item_by_pdf(pdf_src_path)
     print(f"Item {item_code} processed successfully.")
