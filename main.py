@@ -112,7 +112,8 @@ class ItemDB(DB):
 
 class ItemDf(DB):
     def __init__(self):
-        super().__init__()
+        super().__init__(self)
+
     '''
     row = item
     coverage = whole items
@@ -157,16 +158,19 @@ class ItemDf(DB):
         item_df.loc[item_df['item_code'] == item_code, 'domain'] = domain
 
 
-class ItemProcessor(ItemDf):
+# ItemProcessor 부분이 잘 동작하지 않음
+class ItemProcessor(ItemDf, ItemDB):
     def __init__(self, item_code):
-        super().__init__()
+        ItemDB.__init__(self, item_code)
+        ItemDf.__init__(self)
+        item_code = self.item_code
 
     def upload_item_by_pdf(self, pdf_src_path):
         self.make_dir()
         self.reset_meta_dir()
 
         # Move existing PDF to legacy
-        _, _, _, _, _, _, item_legacy_dir, item_pdf_path = ItemDB.define_item_dir()
+        _, _, _, _, _, _, item_legacy_dir, item_pdf_path = self.define_item_dir()
         if item_pdf_path.exists():
             creation_date = self.get_pdf_creation_date(item_pdf_path)
             new_filename = f"{self.item_code}_{creation_date}{item_pdf_path.suffix}"
@@ -180,12 +184,12 @@ class ItemProcessor(ItemDf):
         item_cont_info = item_png_extractor.extract_png()
 
         # Load existing DataFrame
-        item_df = ItemDf.open_item_df_from_csv(self)
+        item_df = self.open_item_df_from_csv()
 
         # Update DataFrame
         if not self.item_code in item_df['item_code'].values:
-            self.add_empty_row_to_item_df(item_df, self.item_code)
-        self.update_item_cont_info(item_df, item_code, item_cont_info)
+            item_df = self.add_empty_row_to_item_df(item_df, self.item_code)
+        self.update_item_cont_info(item_df, self.item_code, item_cont_info)
 
         # Save updated DataFrame
         self.save_item_df_to_csv(item_df)
@@ -385,7 +389,8 @@ class ItemContDf(TestDf):
                     'cont_num': cont_num,
                     'src_pdf_path': item_pdf_path,
                     'src_pdf_page': 0,
-                    'src_pdf_coords': coords,
+                    'src_pdf_coords': coords[0:3],
+                    'src_pdf_height': coords[4],
                     'dst_pdf_path': None,
                     'dst_pdf_page': None,
                     'dst_pdf_para': None,
@@ -396,38 +401,66 @@ class ItemContDf(TestDf):
         return item_cont_df
 
 class Book:
-    def __init__(self, test_code, book_type, book_num):
+    def __init__(self, book_code):
         # book_type: pbm, sol, ans, ...
         # book_num: 01, 02, 03, ...
-        self.test_code = test_code
-        self.book_type = book_type
-        self.book_num = book_num
-
-    def define_book_code(self, test_code, book_type, book_num):
-        book_code = f'{self.test_code}_{self.book_type}_{self.book_num:02d}'
-        return book_code
-
+        self.test_code = book_code[:10]
+        self.book_type = book_code[11:14]
+        self.book_num = book_code[15:17]
     def open_book_df_from_csv(self):
+        #book_cont_df는 row=book, col=book_code, range=whole book인 df임, 이때 book은 test 하나당 1개 이상 존재함
+        #col : test_code, book_code, book_type
         book_db_dir = DB.define_item_db_dir()[3]
         book_df_path = book_db_dir / 'book_df.csv'
         book_df = pd.read_csv(book_df_path)
         return book_df
 
+    def open_book_cont_all_df_from_csv(self):
+        #book_cont_all_df는 row= cont, range= whole book_cont인 df임
+        book_db_dir = DB.define_item_db_dir()[3]
+        book_cont_all_df_path = book_db_dir / 'book_cont_all_df.csv'
+        book_cont_all_df = pd.read_csv(book_cont_all_df_path)
+        return book_cont_all_df
 class BookContDf(Book):
     def __init__(self):
         super().__init__()
         self.book_code = self.define_book_code(self.test_code, self.book_type, self.book_num)
-        self.book_df = self.open_book_df_from_csv()
+        self.book_cont_all_df = self.open_book_cont_all_df_from_csv()
     def get_book_cont_df(self, book_code):
-        book_cont_df = self.book_df[self.book_df['book_code'] == book_code]
+        #어떤 규칙으로 book_cont_all_df의 일부에서 book_cont_df를 가져올지 생각해야함
+        book_cont_df = self.book_cont_all_df[self.book_cont_all_df['book_code'] == book_code]
         return book_cont_df
-class MergedContDf(Book, ItemContDf):
-    def __init__(self, test_code, book_type, book_num):
-        super().__init__(test_code, book_type, book_num)
+class MergedContDf(BookContDf, ItemContDf):
+    def __init__(self, book_code):
+        super().__init__(book_code)
+        self.book_code = book_code
+        self.test_code = self.book_code[:10]
 
-    def merge_two_cont_df(self):
+    def merge_and_fill_merged_cont_df(self, merged_cont_df):
+        # item_cont_df와 book_cont_df를 가져온다.
         item_cont_df = self.get_item_cont_df(self.test_code)
         book_cont_df = self.get_book_cont_df(self.book_code)
+        '''  col: item_cont_df, book_cont_df
+            'cont_code': cont_code,
+            'item_code': item_code,
+            'item_serial_num': item_serial_num,
+            'cont_type': cont_type,
+            'cont_sub_type': cont_sub_type,
+            'cont_num': cont_num,
+            'src_pdf_path': item_pdf_path,
+            'src_pdf_page': 0,
+            'src_pdf_coords': coords,
+            'dst_pdf_path': None,
+            'dst_pdf_page': None,
+            'dst_pdf_para': None,
+            'dst_pdf_coords': None
+        '''
+        # item_cont_df의 빈 값들을 채운다.
+
+        # book_cont_df의 빈 값들을 채운다.
+
+        # item_cont_df와 book_cont_df를 병합한다
+
         merged_cont_df = pd.merge(item_cont_df, book_cont_df, on='cont_code')
         return merged_cont_df
 
@@ -447,7 +480,7 @@ class MergedContDf(Book, ItemContDf):
         'blank': 40
     }
 
-    def arrange_merged_cont_df(self, merged_cont_df):
+    def sort_merged_cont_df(self, merged_cont_df):
         # Map cont_type to cont_type_serial_num
         merged_cont_df['cont_type_serial_num'] = merged_cont_df['cont_type'].map(dict_cont_type_serial_num)
 
@@ -456,6 +489,7 @@ class MergedContDf(Book, ItemContDf):
 
         return merged_cont_df
 
+    # 이렇게 얻어진 merged_cont_df는 src와 dst가 모두 명확하게 기재된 cont_df가 된다.
 class TestParaManager(ItemContDf):
     def __init__(self, test_code):
         super().__init__(test_code)

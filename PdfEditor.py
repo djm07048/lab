@@ -48,7 +48,7 @@ class PdfEditor:
 
 
 
-    def overlay_multiple_pdf_from_list(self, merged_cont_df):
+    def overlay_multiple_pdf_from_merged_cont_df(self, merged_cont_df):
         for index, row in merged_cont_df.iterrows():
             src_pdf_page = row['src_pdf_page']
             src_pdf_coords = row['src_pdf_coords']
