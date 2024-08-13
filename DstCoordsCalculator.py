@@ -89,7 +89,7 @@ class DstCoordsCalculator:
             ['wk', 'sol']: False
         }
 
-    def group_by_para(self):
+    def align_by_para(self):
         if self.is_para_predefined[self.test_type, self.book_type]:
             # merged_cont_df에 predefined para의 정보를 넣어 주어야 한다.
             self.para_group = self.merged_cont_df.groupby('dst_pdf_para')

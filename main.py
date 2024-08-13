@@ -42,157 +42,30 @@ class Ratio:
             return float(media_box.height)
 
 class Template:
+    # Template for 문항 양식
     @staticmethod
     def pbm_area():
         # x_lt, x_rt, y_top_from_top, y_btm_from_top, y_top_from_btm, y_btm_from_btm
-        return 23, 135, 13, 420, 407, 0
+        return 23, 135.5, 13, 420, 407, 0
 
     @staticmethod
-    def sol_colorbar():
+    def sol_area():
         # x_lt, x_rt, y_top_from_top, y_btm_from_top, y_top_from_btm, y_btm_from_btm
         return 174, 274, 24, 420, 396, 0
 
 class DB:
-    def define_item_db_dir(self):
-        db_dir = Path(r'C:\Users\LEE YONGJOO\PycharmProjects\lab\DB')
-        item_db_dir = db_dir / 'itemDB'
-        test_db_dir = db_dir / 'testDB'
-        book_db_dir = db_dir / 'bookDB'
-        return db_dir, item_db_dir, test_db_dir
-
-
-class PdfEditor:
-    def __init__(self):
-        pass
-
-
-
-class ItemDB(DB):
-    def __init__(self, item_code):
-        self.item_code = item_code
-
-    def define_item(self):
-        item_subject = self.item_code[:2]
-        item_topic = self.item_code[2:5]
-        item_author = self.item_code[5:7]
-        item_year = self.item_code[7:9]
-        item_num = self.item_code[9:13]
-        return item_subject, item_topic, item_author, item_year, item_num
-
-    def define_item_dir(self):
-        item_subject, item_topic, item_author, item_year, item_num = self.define_item()
-        db_dir, item_db_dir, _ = DB.define_item_db_dir(self)
-        item_subject_dir = item_db_dir / item_subject
-        item_topic_dir = item_subject_dir / item_topic
-        item_dir = item_topic_dir / self.item_code
-        item_meta_dir = item_dir / 'metadata'
-        item_legacy_dir = item_dir / 'legacy'
-        item_pdf_path = item_dir / f'{self.item_code}.pdf'
-        return db_dir, item_db_dir, item_subject_dir, item_topic_dir, item_dir, item_meta_dir, item_legacy_dir, item_pdf_path
-
-    def get_item_pdf_path(self):
-        _, _, _, _, _, _, _, item_pdf_path = self.define_item_dir()
-        return item_pdf_path
-
-    def make_dir(self):
-        _, _, _, _, item_dir, item_meta_dir, item_legacy_dir, _ = self.define_item_dir()
-        item_dir.mkdir(parents=True, exist_ok=True)
-        item_legacy_dir.mkdir(exist_ok=True)
-        item_meta_dir.mkdir(exist_ok=True)
-    def reset_meta_dir(self):
-        _, _, _, _, _, item_meta_dir, _, _ = self.define_item_dir()
-        if item_meta_dir.exists():
-            shutil.rmtree(item_meta_dir)
-        item_meta_dir.mkdir(exist_ok=True)
-
-    def get_item_code(self, src_pdf_path):
+    db_dir = Path(r'C:\Users\LEE YONGJOO\PycharmProjects\lab\DB')
+    item_db_dir = db_dir / 'itemDB'
+    test_db_dir = db_dir / 'testDB'
+    book_db_dir = db_dir / 'bookDB'
+    item_df_path = item_db_dir / 'item_df.csv'
+    
+    
+    @staticmethod
+    def get_item_code(src_pdf_path):
         filename_with_ext = os.path.basename(src_pdf_path)
         filename_without_ext = os.path.splitext(filename_with_ext)[0]
         return filename_without_ext
-
-class ItemDf(DB):
-    def __init__(self):
-        super().__init__(self)
-
-    '''
-    row = item
-    coverage = whole items
-    col = item_code, item_pdf_path, ref_25 ~ ref_44, domain, item_cont_info
-    '''
-
-    def make_new_item_df(self):
-        item_df = pd.DataFrame(columns = ['item_code', 'item_pdf_path', 'reference', 'domain', 'item_cont_info'])
-        return item_df
-
-    def define_item_df_dir(self):
-        db_dir = Path(r'C:\Users\LEE YONGJOO\PycharmProjects\lab\DB')
-        item_db_dir = db_dir / 'itemDB'
-        item_df_path = item_db_dir / 'item_df.csv'
-        return db_dir, item_db_dir, item_df_path
-
-    def open_item_df_from_csv(self):
-        _, item_db_dir, item_df_path = self.define_item_df_dir()
-
-        if not item_df_path.exists():
-            item_df = self.make_new_item_df()
-            self.save_item_df_to_csv(item_df)
-        else:
-            item_df = pd.read_csv(item_df_path)
-
-        return item_df
-
-    def save_item_df_to_csv(self, item_df):
-        _, item_db_dir, item_df_path = self.define_item_df_dir()
-        item_df.to_csv(item_df_path, index=False)
-
-    def add_empty_row_to_item_df(self, item_df, item_code):
-        item_df.append({'item_code': item_code, 'item_pdf_path': ItemDB.get_item_pdf_path(), 'reference': None, 'domain': None, 'item_cont_info': None}, ignore_index=True)
-
-    def update_item_cont_info(self, item_df, item_code, item_cont_info):
-        item_df.loc[item_df['item_code'] == item_code, 'item_cont_info'] = item_cont_info
-
-    def update_item_references(self, item_df, item_code, references):
-        item_df.loc[item_df['item_code'] == item_code, 'references'] = references
-
-    def update_item_domain(self, item_df, item_code, domain):
-        item_df.loc[item_df['item_code'] == item_code, 'domain'] = domain
-
-
-# ItemProcessor 부분이 잘 동작하지 않음
-class ItemProcessor(ItemDf, ItemDB):
-    def __init__(self, item_code):
-        ItemDB.__init__(self, item_code)
-        ItemDf.__init__(self)
-        item_code = self.item_code
-
-    def upload_item_by_pdf(self, pdf_src_path):
-        self.make_dir()
-        self.reset_meta_dir()
-
-        # Move existing PDF to legacy
-        _, _, _, _, _, _, item_legacy_dir, item_pdf_path = self.define_item_dir()
-        if item_pdf_path.exists():
-            creation_date = self.get_pdf_creation_date(item_pdf_path)
-            new_filename = f"{self.item_code}_{creation_date}{item_pdf_path.suffix}"
-            shutil.move(item_pdf_path, item_legacy_dir / new_filename)
-        shutil.copy(pdf_src_path, item_pdf_path)
-
-        # get item_cont_info
-        item_png_extractor = ItemPngExtractor(self.item_code, 508)
-
-        # Extract PNG information
-        item_cont_info = item_png_extractor.extract_png()
-
-        # Load existing DataFrame
-        item_df = self.open_item_df_from_csv()
-
-        # Update DataFrame
-        if not self.item_code in item_df['item_code'].values:
-            item_df = self.add_empty_row_to_item_df(item_df, self.item_code)
-        self.update_item_cont_info(item_df, self.item_code, item_cont_info)
-
-        # Save updated DataFrame
-        self.save_item_df_to_csv(item_df)
 
     @staticmethod
     def get_pdf_creation_date(pdf_path):
@@ -200,9 +73,117 @@ class ItemProcessor(ItemDf, ItemDB):
         date_obj = datetime.datetime.fromtimestamp(creation_time)
         return date_obj.strftime('%y%m%d_%H%M%S')
 
-class ItemPngExtractor(ItemDB):
-    def __init__(self, item_code, dpi_png):
-        super().__init__(item_code)
+    def load_item_df(self):
+        if not self.item_df_path.exists():
+            item_df = pd.DataFrame(columns=['item_code', 'item_pdf_path', 'reference', 'domain', 'item_cont_list'])
+        else:
+            pass
+        item_df = pd.read_csv(self.item_df_path)
+        return item_df
+    
+    def save_item_df(self, item_df):
+        item_df.to_csv(self.item_df_path, index=False)
+
+
+class Item(DB):
+    #Item-specific DB 관리
+    def __init__(self, item_code):
+        super().__init__(self)
+        self.item_code = item_code
+
+        self.item_subject = self.item_code[:2]
+        self.item_topic = self.item_code[2:5]
+        self.item_author = self.item_code[5:7]
+        self.item_year = self.item_code[7:9]
+        self.item_num = self.item_code[9:13]
+    
+        self.item_subject_dir = self.item_db_dir / self.item_subject
+        self.item_topic_dir = self.item_subject_dir / self.item_topic
+        self.item_dir = self.item_topic_dir / self.item_code
+        self.item_meta_dir = self.item_dir / 'metadata'
+        self.item_legacy_dir = self.item_dir / 'legacy'
+        self.item_pdf_path = self.item_dir / f'{self.item_code}.pdf'
+
+
+    def make_item_dir(self):
+        self.item_dir.mkdir(parents=True, exist_ok=True)
+        self.item_legacy_dir.mkdir(exist_ok=True)
+        self.item_meta_dir.mkdir(exist_ok=True)
+        
+    def reset_item_meta_dir(self):
+        if self.item_meta_dir.exists():
+            shutil.rmtree(self.item_meta_dir)
+        self.item_meta_dir.mkdir(exist_ok=True)
+
+
+class ItemDf(DB):
+    # Item 하나의 row를 ItemDF에서 관리한다.
+    '''
+    row = item
+    coverage = whole items
+    col = item_code, item_pdf_path, ref_25 ~ ref_44, domain, item_cont_list
+    '''
+    
+    def __init__(self, item_code):
+        super().__init__()
+        self.item_df = self.load_item_df()
+        self.item_code = item_code
+        self.Item= Item(self.item_code)
+    def add_empty_row_to_item_df(self):
+        self.item_df.append({'item_code': self.item_code,
+                        'item_pdf_path': self.Item.item_pdf_path,
+                        'reference': None,
+                        'domain': None,
+                        'item_cont_list': None #item_cont_list는 item_cont들이 담겨있는 리스트임
+                        }, ignore_index=True)
+
+    def update_item_cont_list(self, item_cont_list):
+        self.item_df.loc[self.item_df['item_code'] == self.item_code, 'item_cont_list'] = item_cont_list
+
+    def update_item_references(self, references):
+        self.item_df.loc[self.item_df['item_code'] == self.item_code, 'references'] = references
+
+    def update_item_domain(self, domain):
+        self.item_df.loc[self.item_df['item_code'] == self.item_code, 'domain'] = domain
+
+
+# ItemProcessor 부분이 잘 동작하지 않음
+class ItemProcessor(ItemDf, Item):
+    def __init__(self):
+        Item.__init__(self)
+        ItemDf.__init__(self)
+
+    def upload_item_by_pdf(self, pdf_src_path):
+        self.make_item_dir()
+        self.reset_item_meta_dir()
+        if self.item_pdf_path.exists():
+            creation_date = self.get_pdf_creation_date(self.item_pdf_path)
+            new_filename = f"{self.item_code}_{creation_date}{self.item_pdf_path.suffix}"
+            shutil.move(self.item_pdf_path, self.item_legacy_dir / new_filename)
+        shutil.copy(pdf_src_path, self.item_pdf_path)
+
+        # get item_cont_list
+        item_png_extractor = ItemPngExtractor(self.item_code, 508)
+
+        # Extract PNG information
+        item_cont_list = item_png_extractor.extract_png()
+
+        # Load existing DataFrame
+        item_df = self.load_item_df()
+
+        # Update DataFrame
+        if not self.item_code in item_df['item_code'].values:
+            item_df = self.add_empty_row_to_item_df(item_df, self.item_code)
+        self.update_item_cont_list(item_df, self.item_code, item_cont_list)
+
+        # Save updated DataFrame
+        self.save_item_df(item_df)
+
+
+
+class ItemPngExtractor(Item):
+    def __init__(self, dpi_png):
+        super().__init__()
         self.dpi_png = dpi_png
 
 
@@ -213,23 +194,25 @@ class ItemPngExtractor(ItemDB):
         img = Image.frombytes("RGB", [pix.width, pix.height], pix.samples)
         return np.array(img)
 
-
-    def save_png(self, naive_png, filename):
+    @staticmethod
+    def save_png(naive_png, filename):
         img = Image.fromarray(naive_png)
         img.save(filename)
 
 
     def item_pbm_png_extractor(self):
-        _, _, _, _, _, _, _, item_pdf_path = self.define_item_dir()
-        item_png = self.pdf_to_naive_png(item_pdf_path)
+        item_png = self.pdf_to_naive_png(self.item_pdf_path)
         height, _, _ = item_png.shape
+
         #x_lt, x_rt, y_top_from_top, y_btm_from_top, y_top_from_btm, y_btm_from_btm
         pdf_mm_x_lt, pdf_mm_x_rt, pdf_mm_y_top_from_top,_, pdf_mm_y_top_from_btm,_ = Template.pbm_area()
         png_px_x_lt = Ratio.mm_to_png_px(pdf_mm_x_lt, self.dpi_png)
-        png_px_x_rt = Ratio.mm_to_png_px(pdf_mm_x_rt + 0.5, self.dpi_png)
+        png_px_x_rt = Ratio.mm_to_png_px(pdf_mm_x_rt, self.dpi_png)
         png_px_y_top = Ratio.mm_to_png_px(pdf_mm_y_top_from_top, self.dpi_png)
         png_px_y_btm_default = height
+
         cropped = item_png[int(png_px_y_top):png_px_y_btm_default, int(png_px_x_lt):int(png_px_x_rt)]
+
         red_pixels = np.where((cropped == [255, 0, 0]).all(axis=2))
         px_match = list(zip(red_pixels[1] + int(png_px_x_lt), red_pixels[0] + int(png_px_y_top)))
         png_px_y_btm = min((y for _, y in px_match), default=png_px_y_btm_default) - 20
@@ -239,21 +222,22 @@ class ItemPngExtractor(ItemDB):
         pdf_pt_x_rt = Ratio.mm_to_pdf_pt(pdf_mm_x_rt)
         pdf_pt_y_top = Ratio.mm_to_pdf_pt(pdf_mm_y_top_from_btm)
         pdf_pt_y_btm = Ratio.png_px_to_pdf_pt(png_px_y_btm_from_btm, self.dpi_png)
-        pbm_item_cont_info = [[pdf_pt_x_lt, pdf_pt_x_rt, pdf_pt_y_top, pdf_pt_y_btm, pdf_pt_y_top - pdf_pt_y_btm, 'pbm', 'pbm', '01']]
 
-        return pbm_item_cont_info, pbm_png
+        pbm_item_cont_list = [[pdf_pt_x_lt, pdf_pt_x_rt, pdf_pt_y_top, pdf_pt_y_btm, pdf_pt_y_top - pdf_pt_y_btm, 'pbm', 'pbm', '00']]
+
+        return pbm_item_cont_list, pbm_png
 
 
     def item_sol_png_extractor(self):
-        _, _, _, _, _, _, _, item_pdf_path = self.define_item_dir()
-        item_png = self.pdf_to_naive_png(item_pdf_path)
+        item_png = self.pdf_to_naive_png(self.item_pdf_path)
         height, _, _ = item_png.shape
-        pdf_mm_x_lt, pdf_mm_x_rt, pdf_mm_y_top_from_top, _, pdf_mm_y_top_from_btm, _ = Template.sol_colorbar()
+        pdf_mm_x_lt, pdf_mm_x_rt, pdf_mm_y_top_from_top, _, pdf_mm_y_top_from_btm, _ = Template.sol_area()
         png_px_x_lt_scan = int(Ratio.mm_to_png_px(141, self.dpi_png))
         png_px_x_rt_scan = png_px_x_lt_scan + 1
         png_px_y_top = int(Ratio.mm_to_png_px(pdf_mm_y_top_from_top, self.dpi_png))
         png_px_y_btm_default = height
         cropped = item_png[png_px_y_top:png_px_y_btm_default, png_px_x_lt_scan:png_px_x_rt_scan]
+
         changes = []
         prev_color = np.array([255, 255, 255])
         for y, color in enumerate(cropped[:, 0, :3]):
@@ -263,9 +247,9 @@ class ItemPngExtractor(ItemDB):
                 elif np.array_equal(color, [255, 255, 255]):
                     changes.append((y, 'end'))
             prev_color = color
-        sol_item_cont_info = []
+        sol_item_cont_list = []
         sol_pngs = []
-        sol_serial_num = 1
+        sol_serial_num = 1 #sol에서 sub_type과 관계없이 serial_num를 연속적으로 부여함
         for i in range(0, len(changes) - 1, 2):
             if changes[i][1] == 'start' and changes[i + 1][1] == 'end':
                 start_y, end_y = changes[i][0], changes[i + 1][0]
@@ -281,7 +265,7 @@ class ItemPngExtractor(ItemDB):
                 sol_png = item_png[start_y + png_px_y_top:end_y + png_px_y_top,
                           int(Ratio.mm_to_png_px(pdf_mm_x_lt, self.dpi_png)):int(
                               Ratio.mm_to_png_px(pdf_mm_x_rt, self.dpi_png))]
-                sol_item_cont_info.append([
+                sol_item_cont_list.append([
                     Ratio.mm_to_pdf_pt(pdf_mm_x_lt),
                     Ratio.mm_to_pdf_pt(pdf_mm_x_rt),
                     Ratio.mm_to_pdf_pt(
@@ -296,77 +280,69 @@ class ItemPngExtractor(ItemDB):
                 sol_pngs.append(sol_png)
                 sol_serial_num += 1
 
-        return sol_item_cont_info, sol_pngs
+        return sol_item_cont_list, sol_pngs
 
 
     def extract_png(self):
-        self.make_dir()
+        self.make_item_dir()
         _, _, _, _, _, item_meta_dir, _, _ = self.define_item_dir()
         item_meta_dir = Path(item_meta_dir)
-        pbm_item_cont_info, pbm_png = self.item_pbm_png_extractor()
-        sol_item_cont_info, sol_pngs = self.item_sol_png_extractor()
+        pbm_item_cont_list, pbm_png = self.item_pbm_png_extractor()
+        sol_item_cont_list, sol_pngs = self.item_sol_png_extractor()
 
-        item_cont_info_keys = []
-        item_cont_info_values = pbm_item_cont_info + sol_item_cont_info
+        item_cont_list_keys = []
+        item_cont_list_values = pbm_item_cont_list + sol_item_cont_list
 
-
+        #save pngs
         for i, png in enumerate([pbm_png] + sol_pngs):
-            item_cont_info_key = f'{self.item_code}_{item_cont_info_values[i][5]}_{item_cont_info_values[i][6]}_{item_cont_info_values[i][7]:02d}'
-            item_cont_info_keys = item_cont_info_keys.append(item_cont_info_key)
-            self.save_png(png, item_meta_dir / f'{item_cont_info_key}.png')
+            item_cont_list_key = f'{self.item_code}_{item_cont_list_values[i][5]}_{item_cont_list_values[i][6]}_{item_cont_list_values[i][7]:02d}'
+            item_cont_list_keys = item_cont_list_keys.append(item_cont_list_key)
+            self.save_png(png, item_meta_dir / f'{item_cont_list_key}.png')
 
-        return item_cont_info_values
+        return item_cont_list_values
 
 
-class TestDB(DB):
+#여기부터 수정 필요
+class Test(DB):
     def __init__(self, test_code):
         self.test_code = test_code
-
+        self.test_subject = self.test_code[0:2]
+        self.test_type = self.test_code[2:4]
+        self.test_year = self.test_code[4:6]
+        self.test_name = self.test_code[6:8]
+        self.test_num = self.test_code[8:10]
         '''
         Test 아래에
         ex: 모의고사
         mn: 월간지
         wk: 주간지        
         '''
-    def define_test(self):
-        #E1wk25주간01
-        test_subject = self.test_code[0:2]
-        test_type = self.test_code[2:4]
-        test_year = self.test_code[4:6]
-        test_name = self.test_code[6:8]
-        test_num = self.test_code[8:10]
-        return test_subject, test_type, test_year, test_name, test_num
-    def define_test_db_dir(self):
-        test_db_dir = self.define_item_db_dir()[2]
-        test_subject, test_type, test_year, test_name, test_num = self.define_test()
-        test_subject_dir = test_db_dir / test_subject
-        test_type_dir = test_subject_dir / f'{test_type}'
-        test_year_dir = test_type_dir / f'{test_year}'
-        test_dir = test_year_dir / self.test_code
-        test_item_dir = test_dir / 'item'
-        return test_dir, test_item_dir
+        self.test_subject_dir = self.test_db_dir / self.test_subject
+        self.test_type_dir = self.test_subject_dir / f'{self.test_type}'
+        self.test_year_dir = self.test_type_dir / f'{self.test_year}'
+        self.test_dir = self.test_year_dir / self.test_code
+        self.test_item_dir = self.test_dir / 'item'
 
-    def make_test_db_dir(self):
-        test_dir, test_item_dir = self.define_test_db_dir()
-        test_dir.mkdir(parents=True, exist_ok=True)
-        test_item_dir.mkdir(exist_ok=True)
+    def make_test_dir(self):
+        self.test_dir.mkdir(parents=True, exist_ok=True)
+        self.test_item_dir.mkdir(exist_ok=True)
 
 
-class TestDf(TestDB):
-    def __init__(self, test_code):
-        super().__init__(test_code)
+class TestDf(Test):
+    def __init__(self):
+        super().__init__()
 
-    def get_test_df(self, test_code):
-        item_df = ItemDf.open_item_df_from_csv()
-        test_year = test_code[4:6]
-        test_df = item_df[item_df['reference'].apply(lambda ref: test_year in ref and ref[test_year][:10] == test_code)]
-        test_df['item_serial_num'] = test_df['reference'].apply(lambda ref: int(ref[test_year][11:14]))
+    def get_test_df(self):
+        item_df = DB.load_item_df()
+        test_df = item_df[item_df['reference'].apply(lambda ref: self.test_year in ref and ref[self.test_year][:10] == self.test_code)]
+        test_df['item_serial_num'] = test_df['reference'].apply(lambda ref: int(ref[self.test_year][11:14]))
 
         # Sort test_df by item_serial_num
         test_df = test_df.sort_values(by='item_serial_num')
 
         return test_df
 
+    # test_df의 하나의 row를 update하는 코드도 필요
 class ItemContDf(TestDf):
     def __init__(self, test_code):
         super().__init__(test_code)
@@ -378,7 +354,7 @@ class ItemContDf(TestDf):
             item_code = row['item_code']
             item_pdf_path = row['item_pdf_path']
             item_serial_num = row['item_serial_num']
-            for cont_code, coords in row['item_cont_info'].items():
+            for cont_code, coords in row['item_cont_list'].items():
                 cont_type, cont_sub_type, cont_num = cont_code.split('_')[1:]
                 item_cont_data.append({
                     'cont_code': cont_code,
@@ -563,7 +539,7 @@ class WkCollocator(TestParaManager):
     sol은 brutal_spacing으로 배치
     '''
 
-class Book(TestDB):
+class Book(Test):
     def __init__(self, test_code, book_type, book_num):
         # book_type: pbm, sol, ans, ...
         # book_num: 01, 02, 03, ...
