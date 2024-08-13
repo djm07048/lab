@@ -311,7 +311,7 @@ class ItemPngExtractor(Item):
         return item_cont_list_values
 
 
-# 여기부터 수정 필요~
+# 여기부터 '수정' 필요~
 class Test(DB):
     def __init__(self, test_code):
         self.test_code = test_code
@@ -449,7 +449,7 @@ class MergedContDf(Book, ItemDf):
     # para가 predefined인지... 아니면 사용자가 지정해야 하는지에 따라서, dst_pdf_para를 채워주는 코드가 필요하다.
 
 
-# 여기서부터는 다시 작성해야 함
+# 여기서부터는 처음부터 다시 작성해야 함
 
 class TestParaManager(ItemContDf):
     def __init__(self, test_code):
