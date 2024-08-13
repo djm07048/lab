@@ -84,6 +84,12 @@ class DB:
     def save_item_df(self, item_df):
         item_df.to_csv(self.item_df_path, index=False)
 
+    def load_book_df(self):
+        # book_cont_df는 row=book, col=book_code, range=whole book인 df임, 이때 book은 test 하나당 1개 이상 존재함
+        # col : test_code, book_code, book_type
+        book_df_path = self.book_db_dir / 'book_df.csv'
+        book_df = pd.read_csv(book_df_path)
+        return book_df
 
 class Item(DB):
     #Item-specific DB 관리
@@ -301,8 +307,6 @@ class ItemPngExtractor(Item):
 
         return item_cont_list_values
 
-
-#여기부터 수정 필요
 class Test(DB):
     def __init__(self, test_code):
         self.test_code = test_code
@@ -343,6 +347,10 @@ class TestDf(Test):
         return test_df
 
     # test_df의 하나의 row를 update하는 코드도 필요
+
+
+
+#여기부터 수정 필요
 class ItemContDf(TestDf):
     def __init__(self, test_code):
         super().__init__(test_code)
@@ -362,7 +370,7 @@ class ItemContDf(TestDf):
                     'item_serial_num': item_serial_num,
                     'cont_type': cont_type,
                     'cont_sub_type': cont_sub_type,
-                    'cont_num': cont_num,
+                    'cont_num': cont_num,       #item 내에서 모든 cont에 대한 순번임을 유의
                     'src_pdf_path': item_pdf_path,
                     'src_pdf_page': 0,
                     'src_pdf_coords': coords[0:3],
@@ -380,23 +388,8 @@ class Book:
     def __init__(self, book_code):
         # book_type: pbm, sol, ans, ...
         # book_num: 01, 02, 03, ...
-        self.test_code = book_code[:10]
-        self.book_type = book_code[11:14]
-        self.book_num = book_code[15:17]
-    def open_book_df_from_csv(self):
-        #book_cont_df는 row=book, col=book_code, range=whole book인 df임, 이때 book은 test 하나당 1개 이상 존재함
-        #col : test_code, book_code, book_type
-        book_db_dir = DB.define_item_db_dir()[3]
-        book_df_path = book_db_dir / 'book_df.csv'
-        book_df = pd.read_csv(book_df_path)
-        return book_df
+        self.test_code, self.book_type, self.book_num = book_code.split('_')[0], book_code.split('_')[1], book_code.split('_')[2]
 
-    def open_book_cont_all_df_from_csv(self):
-        #book_cont_all_df는 row= cont, range= whole book_cont인 df임
-        book_db_dir = DB.define_item_db_dir()[3]
-        book_cont_all_df_path = book_db_dir / 'book_cont_all_df.csv'
-        book_cont_all_df = pd.read_csv(book_cont_all_df_path)
-        return book_cont_all_df
 class BookContDf(Book):
     def __init__(self):
         super().__init__()
