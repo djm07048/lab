@@ -60,7 +60,6 @@ class DB:
     book_db_dir = db_dir / 'bookDB'
     item_df_path = item_db_dir / 'item_df.csv'
     
-    
     @staticmethod
     def get_item_code(src_pdf_path):
         filename_with_ext = os.path.basename(src_pdf_path)
@@ -90,6 +89,11 @@ class DB:
         book_df_path = self.book_db_dir / 'book_df.csv'
         book_df = pd.read_csv(book_df_path)
         return book_df
+
+    def load_book_cont_all_df(self):
+        book_cont_all_df_path = self.book_db_dir / 'book_cont_all_df.csv'
+        book_cont_all_df = pd.read_csv(book_cont_all_df_path)
+        return book_cont_all_df
 
 class Item(DB):
     #Item-specific DB 관리
@@ -184,7 +188,6 @@ class ItemProcessor(ItemDf, Item):
 
         # Save updated DataFrame
         self.save_item_df(item_df)
-
 
 
 class ItemPngExtractor(Item):
@@ -307,6 +310,8 @@ class ItemPngExtractor(Item):
 
         return item_cont_list_values
 
+
+# 여기부터 수정 필요~
 class Test(DB):
     def __init__(self, test_code):
         self.test_code = test_code
@@ -330,12 +335,6 @@ class Test(DB):
     def make_test_dir(self):
         self.test_dir.mkdir(parents=True, exist_ok=True)
         self.test_item_dir.mkdir(exist_ok=True)
-
-
-class TestDf(Test):
-    def __init__(self):
-        super().__init__()
-
     def get_test_df(self):
         item_df = DB.load_item_df()
         test_df = item_df[item_df['reference'].apply(lambda ref: self.test_year in ref and ref[self.test_year][:10] == self.test_code)]
@@ -348,15 +347,8 @@ class TestDf(Test):
 
     # test_df의 하나의 row를 update하는 코드도 필요
 
-
-
-#여기부터 수정 필요
-class ItemContDf(TestDf):
-    def __init__(self, test_code):
-        super().__init__(test_code)
-
-    def get_item_cont_df(self, test_code):
-        test_df = self.get_test_df(test_code)
+    def get_item_cont_df(self):
+        test_df = self.get_test_df(self.test_code)
         item_cont_data = []
         for _, row in test_df.iterrows():
             item_code = row['item_code']
@@ -384,26 +376,21 @@ class ItemContDf(TestDf):
         item_cont_df = pd.DataFrame(item_cont_data)
         return item_cont_df
 
-class Book:
+class Book(DB):
     def __init__(self, book_code):
+        self.book_code = book_code
         # book_type: pbm, sol, ans, ...
         # book_num: 01, 02, 03, ...
-        self.test_code, self.book_type, self.book_num = book_code.split('_')[0], book_code.split('_')[1], book_code.split('_')[2]
-
-class BookContDf(Book):
-    def __init__(self):
-        super().__init__()
-        self.book_code = self.define_book_code(self.test_code, self.book_type, self.book_num)
+        self.test_code, self.book_type, self.book_num\
+            = self.book_code.split('_')[0], self.book_code.split('_')[1], self.book_code.split('_')[2]
         self.book_cont_all_df = self.open_book_cont_all_df_from_csv()
     def get_book_cont_df(self, book_code):
         #어떤 규칙으로 book_cont_all_df의 일부에서 book_cont_df를 가져올지 생각해야함
         book_cont_df = self.book_cont_all_df[self.book_cont_all_df['book_code'] == book_code]
         return book_cont_df
-class MergedContDf(BookContDf, ItemContDf):
-    def __init__(self, book_code):
-        super().__init__(book_code)
-        self.book_code = book_code
-        self.test_code = self.book_code[:10]
+class MergedContDf(Book, ItemDf):
+    def __init__(self):
+        super().__init__()
 
     def merge_and_fill_merged_cont_df(self, merged_cont_df):
         # item_cont_df와 book_cont_df를 가져온다.
@@ -459,6 +446,11 @@ class MergedContDf(BookContDf, ItemContDf):
         return merged_cont_df
 
     # 이렇게 얻어진 merged_cont_df는 src와 dst가 모두 명확하게 기재된 cont_df가 된다.
+    # para가 predefined인지... 아니면 사용자가 지정해야 하는지에 따라서, dst_pdf_para를 채워주는 코드가 필요하다.
+
+
+# 여기서부터는 다시 작성해야 함
+
 class TestParaManager(ItemContDf):
     def __init__(self, test_code):
         super().__init__(test_code)
