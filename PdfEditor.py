@@ -1,7 +1,7 @@
 import fitz  # PyMuPDF
 
 class PdfEditor:
-    def crop_single_pdf(self, src_pdf_path, src_pdf_page, src_pdf_coords, output_pdf_path):
+    def crop_single_pdf(self, src_pdf_path, src_pdf_page, src_pdf_coords):
         x_lt, x_rt, y_top_from_btm, y_btm_from_btm = src_pdf_coords  # Adjusted to match PDF coordinate system
         if x_lt >= x_rt or y_top_from_btm <= y_btm_from_btm:
             raise ValueError("Invalid coordinates: get available area.")
@@ -48,13 +48,12 @@ class PdfEditor:
 
 
 
-    def overlay_multiple_pdf_from_merged_cont_df(self, merged_cont_df):
-        for index, row in merged_cont_df.iterrows():
+    def overlay_multiple_pdf_from_book_para_cont_df(self, book_para_cont_df):
+        for index, row in book_para_cont_df.iterrows():
             src_pdf_page = row['src_pdf_page']
             src_pdf_coords = row['src_pdf_coords']
             src_pdf_path = row['src_pdf_path']
-            output_pdf_path = output_pdf_path
-            cropped_pdf = self.crop_single_pdf(src_pdf_path, src_pdf_page, src_pdf_coords, output_pdf_path)
+            cropped_pdf = self.crop_single_pdf(src_pdf_path, src_pdf_page, src_pdf_coords)
 
             cropped_src_pdf_path = cropped_pdf
             dst_pdf_path = row['dst_pdf_path']
@@ -79,7 +78,7 @@ dst_pdf_page = 0
 dst_pdf_coords = [300, 400, 400, 300]
 output_pdf_path = 'Modified_Layout_E1_exam.pdf'
 
-overlay_pdf_page(cropped_src_pdf_path, dst_pdf_path, dst_pdf_page, dst_pdf_coords, output_pdf_path)
+overlay_multiple_pdf_from_merged_cont_df(cropped_src_pdf_path, dst_pdf_path, dst_pdf_page, dst_pdf_coords, output_pdf_path)
 
 
 

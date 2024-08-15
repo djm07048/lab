@@ -95,10 +95,11 @@ class DB:
         book_cont_all_df = pd.read_csv(book_cont_all_df_path)
         return book_cont_all_df
 
+
 class Item(DB):
     #Item-specific DB 관리
     def __init__(self, item_code):
-        super().__init__(self)
+        super().__init__()
         self.item_code = item_code
 
         self.item_subject = self.item_code[:2]
@@ -106,7 +107,7 @@ class Item(DB):
         self.item_author = self.item_code[5:7]
         self.item_year = self.item_code[7:9]
         self.item_num = self.item_code[9:13]
-    
+
         self.item_subject_dir = self.item_db_dir / self.item_subject
         self.item_topic_dir = self.item_subject_dir / self.item_topic
         self.item_dir = self.item_topic_dir / self.item_code
@@ -126,7 +127,7 @@ class Item(DB):
         self.item_meta_dir.mkdir(exist_ok=True)
 
 
-class ItemDf(DB):
+class ItemDf(Item):
     # Item 하나의 row를 ItemDF에서 관리한다.
     '''
     row = item
@@ -135,13 +136,12 @@ class ItemDf(DB):
     '''
     
     def __init__(self, item_code):
-        super().__init__()
+        super().__init__(item_code)
         self.item_df = self.load_item_df()
-        self.item_code = item_code
-        self.Item= Item(self.item_code)
+
     def add_empty_row_to_item_df(self):
         self.item_df.append({'item_code': self.item_code,
-                        'item_pdf_path': self.Item.item_pdf_path,
+                        'item_pdf_path': self.item_pdf_path,
                         'reference': None,
                         'domain': None,
                         'item_cont_list': None #item_cont_list는 item_cont들이 담겨있는 리스트임
@@ -158,10 +158,9 @@ class ItemDf(DB):
 
 
 # ItemProcessor 부분이 잘 동작하지 않음
-class ItemProcessor(ItemDf, Item):
-    def __init__(self):
-        Item.__init__(self)
-        ItemDf.__init__(self)
+class ItemProcessor(ItemDf):
+    def __init__(self, item_code):
+        super().__init__(item_code)
 
     def upload_item_by_pdf(self, pdf_src_path):
         self.make_item_dir()
@@ -190,11 +189,10 @@ class ItemProcessor(ItemDf, Item):
         self.save_item_df(item_df)
 
 
-class ItemPngExtractor(Item):
-    def __init__(self, dpi_png):
-        super().__init__()
+class ItemPngExtractor(ItemDf):
+    def __init__(self, item_code, dpi_png):
+        super().__init__(item_code)
         self.dpi_png = dpi_png
-
 
     def pdf_to_naive_png(self, pdf_path):
         doc = fitz.open(pdf_path)
@@ -208,13 +206,11 @@ class ItemPngExtractor(Item):
         img = Image.fromarray(naive_png)
         img.save(filename)
 
-
     def item_pbm_png_extractor(self):
         item_png = self.pdf_to_naive_png(self.item_pdf_path)
         height, _, _ = item_png.shape
 
-        #x_lt, x_rt, y_top_from_top, y_btm_from_top, y_top_from_btm, y_btm_from_btm
-        pdf_mm_x_lt, pdf_mm_x_rt, pdf_mm_y_top_from_top,_, pdf_mm_y_top_from_btm,_ = Template.pbm_area()
+        pdf_mm_x_lt, pdf_mm_x_rt, pdf_mm_y_top_from_top, _, pdf_mm_y_top_from_btm, _ = Template.pbm_area()
         png_px_x_lt = Ratio.mm_to_png_px(pdf_mm_x_lt, self.dpi_png)
         png_px_x_rt = Ratio.mm_to_png_px(pdf_mm_x_rt, self.dpi_png)
         png_px_y_top = Ratio.mm_to_png_px(pdf_mm_y_top_from_top, self.dpi_png)
@@ -235,7 +231,6 @@ class ItemPngExtractor(Item):
         pbm_item_cont_list = [[pdf_pt_x_lt, pdf_pt_x_rt, pdf_pt_y_top, pdf_pt_y_btm, pdf_pt_y_top - pdf_pt_y_btm, 'pbm', 'pbm', '00']]
 
         return pbm_item_cont_list, pbm_png
-
 
     def item_sol_png_extractor(self):
         item_png = self.pdf_to_naive_png(self.item_pdf_path)
@@ -258,7 +253,7 @@ class ItemPngExtractor(Item):
             prev_color = color
         sol_item_cont_list = []
         sol_pngs = []
-        sol_serial_num = 1 #sol에서 sub_type과 관계없이 serial_num를 연속적으로 부여함
+        sol_serial_num = 1
         for i in range(0, len(changes) - 1, 2):
             if changes[i][1] == 'start' and changes[i + 1][1] == 'end':
                 start_y, end_y = changes[i][0], changes[i + 1][0]
@@ -291,24 +286,23 @@ class ItemPngExtractor(Item):
 
         return sol_item_cont_list, sol_pngs
 
-
     def extract_png(self):
         self.make_item_dir()
-        _, _, _, _, _, item_meta_dir, _, _ = self.define_item_dir()
-        item_meta_dir = Path(item_meta_dir)
+        item_meta_dir = Path(self.item_meta_dir)
         pbm_item_cont_list, pbm_png = self.item_pbm_png_extractor()
         sol_item_cont_list, sol_pngs = self.item_sol_png_extractor()
 
         item_cont_list_keys = []
         item_cont_list_values = pbm_item_cont_list + sol_item_cont_list
 
-        #save pngs
         for i, png in enumerate([pbm_png] + sol_pngs):
-            item_cont_list_key = f'{self.item_code}_{item_cont_list_values[i][5]}_{item_cont_list_values[i][6]}_{item_cont_list_values[i][7]:02d}'
-            item_cont_list_keys = item_cont_list_keys.append(item_cont_list_key)
+            item_cont_list_key = f'{self.item_code}_{item_cont_list_values[i][5]}_{item_cont_list_values[i][6]}_{int(item_cont_list_values[i][7]):02d}'
+            item_cont_list_keys.append(item_cont_list_key)
             self.save_png(png, item_meta_dir / f'{item_cont_list_key}.png')
 
         return item_cont_list_values
+
+ItemPngExtractor('E1aaaHY250023', 508).extract_png()
 
 
 # 여기부터 '수정' 필요~

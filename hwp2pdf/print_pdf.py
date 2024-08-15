@@ -83,7 +83,7 @@ def print_pdf(file):
 
 if __name__ == '__main__':
     hwp = Hwp(visible=False)
-    hwp_list = glob(r"C:\Users\LEE YONGJOO\PycharmProjects\lab\hwp2pdf_0815\*.hwp")
+    hwp_list = glob(r"C:\Users\LEE YONGJOO\PycharmProjects\lab\noname.hwp")
     for f in tqdm(hwp_list):
         print_pdf(f)
     hwp.quit()
