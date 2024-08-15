@@ -1,0 +1,4862 @@
+[
+  {
+    "cont_code": "E1aaaHY250024_00_pbm_pbm",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaHY250024_01_solAnswer_original",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaHY250024_02_solA_original",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaHY250024_03_solB_original",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaHY250024_04_solC_original",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaHY250024_05_solArrow_original",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaHY250024_06_solClip_original",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaHY250024_07_solClip_original",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaHY250024_08_solWarning_original",
+    "item_code": "E1aaaHY250024",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaHY250024\\E1aaaHY250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_00_pbm_pbm",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_01_solAnswer_original",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_02_solA_original",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_03_solB_original",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_04_solC_original",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_05_solArrow_original",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_06_solClip_original",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_07_solClip_original",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaJS250004_08_solWarning_original",
+    "item_code": "E1aaaJS250004",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaJS250004\\E1aaaJS250004.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_00_pbm_pbm",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_01_solAnswer_original",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_02_solA_original",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_03_solB_original",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_04_solC_original",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_05_solArrow_original",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_06_solClip_original",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_07_solClip_original",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaPI250027_08_solWarning_original",
+    "item_code": "E1aaaPI250027",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaPI250027\\E1aaaPI250027.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_00_pbm_pbm",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_01_solAnswer_original",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_02_solA_original",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_03_solB_original",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_04_solC_original",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_05_solArrow_original",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_06_solClip_original",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_07_solClip_original",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1aaaZG250007_08_solWarning_original",
+    "item_code": "E1aaaZG250007",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aaa\\E1aaaZG250007\\E1aaaZG250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_00_pbm_pbm",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_01_solAnswer_original",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_02_solA_original",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_03_solB_original",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_04_solC_original",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_05_solArrow_original",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_06_solClip_original",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_07_solClip_original",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaHY250001_08_solWarning_original",
+    "item_code": "E1abaHY250001",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaHY250001\\E1abaHY250001.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_00_pbm_pbm",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_01_solAnswer_original",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_02_solA_original",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_03_solB_original",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_04_solC_original",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_05_solArrow_original",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_06_solClip_original",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_07_solClip_original",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250013_08_solWarning_original",
+    "item_code": "E1abaTH250013",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250013\\E1abaTH250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_00_pbm_pbm",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_01_solAnswer_original",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_02_solA_original",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_03_solB_original",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_04_solC_original",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_05_solArrow_original",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_06_solClip_original",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_07_solClip_original",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaTH250021_08_solWarning_original",
+    "item_code": "E1abaTH250021",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaTH250021\\E1abaTH250021.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_00_pbm_pbm",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_01_solAnswer_original",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_02_solA_original",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_03_solB_original",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_04_solC_original",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_05_solArrow_original",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_06_solClip_original",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_07_solClip_original",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abaZG250012_08_solWarning_original",
+    "item_code": "E1abaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\aba\\E1abaZG250012\\E1abaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_00_pbm_pbm",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_01_solAnswer_original",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_02_solA_original",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_03_solB_original",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_04_solC_original",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_05_solArrow_original",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_06_solClip_original",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_07_solClip_original",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1abbHY250023_08_solWarning_original",
+    "item_code": "E1abbHY250023",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\abb\\E1abbHY250023\\E1abbHY250023.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_00_pbm_pbm",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_01_solAnswer_original",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_02_solA_original",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_03_solB_original",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_04_solC_original",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_05_solArrow_original",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_06_solClip_original",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_07_solClip_original",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1bcaTH250018_08_solWarning_original",
+    "item_code": "E1bcaTH250018",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\bca\\E1bcaTH250018\\E1bcaTH250018.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_00_pbm_pbm",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_01_solAnswer_original",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_02_solA_original",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_03_solB_original",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_04_solC_original",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_05_solArrow_original",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_06_solClip_original",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_07_solClip_original",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1cadZG250015_08_solWarning_original",
+    "item_code": "E1cadZG250015",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cad\\E1cadZG250015\\E1cadZG250015.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_00_pbm_pbm",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_01_solAnswer_original",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_02_solA_original",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_03_solB_original",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_04_solC_original",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_05_solArrow_original",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_06_solClip_original",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_07_solClip_original",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaPI250003_08_solWarning_original",
+    "item_code": "E1ccaPI250003",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaPI250003\\E1ccaPI250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_00_pbm_pbm",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_01_solAnswer_original",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_02_solA_original",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_03_solB_original",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_04_solC_original",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_05_solArrow_original",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_06_solClip_original",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_07_solClip_original",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ccaZG250012_08_solWarning_original",
+    "item_code": "E1ccaZG250012",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\cca\\E1ccaZG250012\\E1ccaZG250012.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_00_pbm_pbm",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_01_solAnswer_original",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_02_solA_original",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_03_solB_original",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_04_solC_original",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_05_solArrow_original",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_06_solClip_original",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_07_solClip_original",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1ddaPI250013_08_solWarning_original",
+    "item_code": "E1ddaPI250013",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\dda\\E1ddaPI250013\\E1ddaPI250013.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_00_pbm_pbm",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_01_solAnswer_original",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_02_solA_original",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_03_solB_original",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_04_solC_original",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_05_solArrow_original",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_06_solClip_original",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_07_solClip_original",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacHY250007_08_solWarning_original",
+    "item_code": "E1eacHY250007",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacHY250007\\E1eacHY250007.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_00_pbm_pbm",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_01_solAnswer_original",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_02_solA_original",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_03_solB_original",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_04_solC_original",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_05_solArrow_original",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_06_solClip_original",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_07_solClip_original",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacJS250019_08_solWarning_original",
+    "item_code": "E1eacJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacJS250019\\E1eacJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_00_pbm_pbm",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_01_solAnswer_original",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_02_solA_original",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_03_solB_original",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_04_solC_original",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_05_solArrow_original",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_06_solClip_original",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_07_solClip_original",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1eacTH250003_08_solWarning_original",
+    "item_code": "E1eacTH250003",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\eac\\E1eacTH250003\\E1eacTH250003.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_00_pbm_pbm",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_01_solAnswer_original",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_02_solA_original",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_03_solB_original",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_04_solC_original",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_05_solArrow_original",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_06_solClip_original",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_07_solClip_original",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabJS250019_08_solWarning_original",
+    "item_code": "E1fabJS250019",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabJS250019\\E1fabJS250019.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_00_pbm_pbm",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_01_solAnswer_original",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_02_solA_original",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_03_solB_original",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_04_solC_original",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_05_solArrow_original",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_06_solClip_original",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_07_solClip_original",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabTH250011_08_solWarning_original",
+    "item_code": "E1fabTH250011",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabTH250011\\E1fabTH250011.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_00_pbm_pbm",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "pbm",
+    "cont_version": "original",
+    "cont_num": 0,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      65.1968503937008,
+      384.0944881889764,
+      1153.7007874015749,
+      947.0551181102362
+    ],
+    "src_pdf_height": 206.64566929133866,
+    "src_pdf_width": 318.8976377952756,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_01_solAnswer_original",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "solAnswer",
+    "cont_version": "original",
+    "cont_num": 1,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1054.488188976378,
+      1032.6614173228347
+    ],
+    "src_pdf_height": 21.82677165354331,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_02_solA_original",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "solA",
+    "cont_version": "original",
+    "cont_num": 2,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      1027.5590551181103,
+      1004.5984251968505
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_03_solB_original",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "solB",
+    "cont_version": "original",
+    "cont_num": 3,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      999.6377952755906,
+      976.5354330708662
+    ],
+    "src_pdf_height": 23.102362204724415,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_04_solC_original",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "solC",
+    "cont_version": "original",
+    "cont_num": 4,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      971.5748031496064,
+      948.6141732283465
+    ],
+    "src_pdf_height": 22.960629921259844,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_05_solArrow_original",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "solArrow",
+    "cont_version": "original",
+    "cont_num": 5,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      943.6535433070867,
+      857.3385826771656
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_06_solClip_original",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 6,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      852.3779527559058,
+      766.0629921259844
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_07_solClip_original",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "solClip",
+    "cont_version": "original",
+    "cont_num": 7,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      761.1023622047245,
+      674.7874015748032
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  {
+    "cont_code": "E1fabZG250024_08_solWarning_original",
+    "item_code": "E1fabZG250024",
+    "item_serial_num": 0,
+    "cont_type": "solWarning",
+    "cont_version": "original",
+    "cont_num": 8,
+    "src_pdf_path": "C:\\Users\\LEE YONGJOO\\PycharmProjects\\lab\\DB\\itemDB\\E1\\fab\\E1fabZG250024\\E1fabZG250024.pdf",
+    "src_pdf_page": 0,
+    "src_pdf_coords": [
+      493.228346456693,
+      776.6929133858268,
+      669.8267716535435,
+      583.511811023622
+    ],
+    "src_pdf_height": 86.31496062992126,
+    "src_pdf_width": 283.46456692913387,
+    "dst_pdf_path": "dst_pdf_path",
+    "dst_pdf_page": 0,
+    "dst_pdf_para": "dst_pdf_para",
+    "dst_pdf_coords": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+]
