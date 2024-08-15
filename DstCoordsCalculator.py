@@ -50,19 +50,6 @@ for cont_code, coords in row['item_cont_info'].items():
     # value = [alignment, spacing]
     # alignment = 'justity_alingn', 'justify_with_last_blank', 'top_align'
     # spacing = int, 50 for top_align
-    dict_para_alignment = {
-        '1a' : ['justify_align', 0],
-        '1b' : ['justify_align', 0],
-        '2a' : ['justify_align', 0],
-        '2b' : ['justify_align', 0],
-        '3a' : ['justify_align', 0],
-        '3b' : ['justify_align', 0],
-        '4a' : ['justify_align', 0],
-        '4b' : ['justify_with_last_blank', 0]
-
-    }
-
-    para = ['1a', '1b', '2a', '2b', '3a', '3b', '4a', '4b']
 # 1) merged_cont_df를 받아오는 코드
 
 # 시작하기 전에
@@ -75,9 +62,8 @@ for cont_code, coords in row['item_cont_info'].items():
 # merged_cont_df는 열심히.. 만든 것을 받아오면 됨
 
 class DstCoordsCalculator:
-    def __init__(self, book_code, merged_cont_df, para):
+    def __init__(self, book_code, merged_cont_df):
         self.merged_cont_df = merged_cont_df
-        self.para = para
         self.book_code = book_code
         self.book_type = book_code.split('_')[1]
         self.test_type = book_code.split('_')[0]
@@ -88,19 +74,32 @@ class DstCoordsCalculator:
             ['wk', 'pbm']: False,
             ['wk', 'sol']: False
         }
+        self.dict_para_alignment = {
+            '1a' : ['justify_align', 0],
+            '1b' : ['justify_align', 0],
+            '2a' : ['justify_align', 0],
+            '2b' : ['justify_align', 0],
+            '3a' : ['justify_align', 0],
+            '3b' : ['justify_align', 0],
+            '4a' : ['justify_align', 0],
+            '4b' : ['justify_with_last_blank', 0]
+
+        }
+
+        self.para = ['1a', '1b', '2a', '2b', '3a', '3b', '4a', '4b']
 
     def align_by_para(self):
         if self.is_para_predefined[self.test_type, self.book_type]:
             # merged_cont_df에 predefined para의 정보를 넣어 주어야 한다.
             self.para_group = self.merged_cont_df.groupby('dst_pdf_para')
         else:
-            current_para = para[0]
+            current_para = self.para[0]
             current_y = dict_para_coords[current_para][2]
             for index, row in self.merged_cont_df.iterrows():
                 height = row['src_pdf_height']
                 current_y -= height
                 if current_y < dict_para_coords[current_para][4]:
-                    current_para = para[para.index(current_para) + 1]
+                    current_para = self.para[self.para.index(current_para) + 1]
                     current_y = dict_para_coords[current_para][2]
                 else:
                     row['dst_pdf_para'] = current_para
@@ -115,7 +114,7 @@ class DstCoordsCalculator:
 
         # align conts in para
         for para, group in self.para_group:
-            alignment, spacing = dict_para_alignment[para]
+            alignment, spacing = self.dict_para_alignment[para]
             if alignment == 'justify_align':
                 self.justify_align(group, spacing)
             elif alignment == 'justify_with_last_blank':

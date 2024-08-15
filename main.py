@@ -438,7 +438,7 @@ class MergedContDf(Book, ItemDf):
 
     def sort_merged_cont_df(self, merged_cont_df):
         # Map cont_type to cont_type_serial_num
-        merged_cont_df['cont_type_serial_num'] = merged_cont_df['cont_type'].map(dict_cont_type_serial_num)
+        merged_cont_df['cont_type_serial_num'] = merged_cont_df['cont_type'].map(self.dict_cont_type_serial_num)
 
         # Sort by item_serial_num, cont_type_serial_num, and cont_num
         merged_cont_df = merged_cont_df.sort_values(by=['item_serial_num', 'cont_type_serial_num', 'cont_num'])
